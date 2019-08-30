@@ -9,10 +9,11 @@ Description
 
 
 ## Techonoligies used
-- Angular
+- Angular: Httpclient Navbar RouterLink 
+           
 - html and css
 - Bootstrap
-- RouteLInk
+
 
 they are navigation bar cotaining the name of APP nd on profile there is my account of my github account 
 click on Search and they asked you to type  userName  and click ENTER you will his/her respective description
