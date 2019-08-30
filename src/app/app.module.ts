@@ -22,4 +22,4 @@ import { FormsModule } from '@angular/forms';
   providers: [ProfileService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
