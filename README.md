@@ -21,10 +21,10 @@ to go in his/her espective account click on View account "now you are in github 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPbm6ckr0MxiuGS5TvoulYCNJCATjXmGrKnsQQ9RV0HYYQKi-l">
 
 
-name:Usanase Francoise
-Tel:0788494207
-email:fusanasencoise@gmail.com
-active link to my website
+- name:Usanase Francoise
+- Tel:0788494207
+- email:fusanasencoise@gmail.com
+- active link to my website
 [https://mugengano18.github.io/order-pizza/order.html]
-lincense
+- lincense
 copyright git-search usanaseFrancoise All Rights Reserved
