@@ -4,19 +4,19 @@ import { HttpClient ,HttpHeaders} from '@angular/common/http';
  @Injectable()
 export class ProfileService {
 private username:string;
-private clientid:"4cfc86596ae17d804dfd";
-private clientsecret:"25a01fc0f57059d5554aca2a42b3238cf0084407";
+private access_token:"4d3d9f61c28be3d3affb2948dfe3996dac0dacc6";
   constructor(private http:HttpClient) { 
     console.log("service is now ready");
     this.username='usanaseFrancoise';
+    this.access_token="4d3d9f61c28be3d3affb2948dfe3996dac0dacc6";
 }
 getProfileInfo(){
-  return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" + 
-  this.clientid + "&client_secret=" +this.clientsecret);
+  return this.http.get("https://api.github.com/users/" + this.username + "?access_token=" + 
+  this.access_token );
 }
 getProfileRepos(){
-  return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id=" + 
-  this.clientid + "&client_secret=" +this.clientsecret);
+  return this.http.get("https://api.github.com/users/" + this.username + "/repos?access_token=" + 
+  this.access_token );
 }
 updateProfile(username:string){
    this.username=username;
