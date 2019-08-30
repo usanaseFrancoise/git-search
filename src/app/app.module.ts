@@ -8,6 +8,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { SearchComponent } from './search/search.component';
     ProfileComponent,
     NavbarComponent,
     SearchComponent,
+    DateCountPipe,
    
   ],
   imports: [
