@@ -1,27 +1,30 @@
 # GitSearch
+- this is a website that is specifically made for searching github users by there respective Username .by anybody who wants to search you type username and click "enter key".
+Description
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRiRHJuf5eJ-Cp8qIKuTOKjKaF0YuB9NB_fc-4wFFRu00QOOIC8w">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- This is the APP called Git-Search App ,it is an APP that helps the user to search his/her git user friend and he can see all profile subscriptions and also :
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Techonoligies used
+Angular
+html and css
+Bootstrap
+RouteLInk
 
-## Build
+they are navigation bar cotaining the name of APP nd on profile there is my account of my github account 
+click on Search and they asked you to type  userName  and click ENTER you will his/her respective description
+to go in his/her espective account click on View account "now you are in github account of your friend"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPbm6ckr0MxiuGS5TvoulYCNJCATjXmGrKnsQQ9RV0HYYQKi-l">
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+name:Usanase Francoise
+Tel:0788494207
+email:fusanasencoise@gmail.com
+active link to my website
+[https://mugengano18.github.io/order-pizza/order.html]
+lincense
+copyright git-search usanaseFrancoise All Rights Reserved
