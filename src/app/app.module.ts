@@ -7,18 +7,21 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SearchComponent } from './search/search.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     NavbarComponent,
+    SearchComponent,
    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-
+   
     AppRoutingModule
   ],
   providers: [ProfileService],
