@@ -1,14 +1,18 @@
 <!-- <div class="container-fluid">
-<h1 > Gits-search app</h1>
-  <form action=""  class="search-form">
-    <div class="form-group">
-      <input  id="search" type="text" class="form-control" placeholder="search-git users with username"[(ngModel)]="username" name="username" (keyup.enter)="findProfile()">
-    </div>
-  </form>
-   -->
-        <!-- <div *ngIf="profile">
+
+        <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" style="top:-100px" > Gits-search app</h1>
+        <form action=""   class="search-form">
+          <div  id="search"   class="form-group">
+            <input type="text" class="form-control" placeholder="search-git users with username"[(ngModel)]="username" name="username" (keyup.enter)="findProfile()">
+          </div>
+        </form>
+        
+        
+     
+        <div *ngIf="profile">
          <div class="panel panel-default">
-           
+            <h3 class="list-group items"*ngIf="profile.bio" ><strong>name:{{profile.name}}</strong></h3>
+                   
          </div>
            <div class="panel-body">
              <div class="row">
@@ -18,10 +22,11 @@
                   <div   style="text-align: center" style="top: 140px"  class="col-sm-4">
                      <ul   class="list-group">
                       
-                      <li class="list-group items"*ngIf="profile.bio" ><strong>Bio:{{profile.bio}}</strong></li>
+                        
+                      <li class="list-group items"*ngIf="profile.bio" ><strong>Bio: {{profile.bio}}</strong></li>
                    
-                      <li class="list-group items"*ngIf="profile.company" ><strong>Work place:{{profile.company}}</strong></li>
-                      <li class="list-group items"*ngIf="profile.blog"><strong>Email:{{profile.blog}}</strong></li>
+                      <li class="list-group items"*ngIf="profile.company" ><strong>Work place: {{profile.company}}</strong></li>
+                      <li class="list-group items"*ngIf="profile.blog"><strong>Email: {{profile.blog}}</strong></li>
                       <li class="list-group items"*ngIf="profile.hireable"><strong> Hireable status:To be hired .</strong></li>
                       
                     </ul>
