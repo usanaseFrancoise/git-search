@@ -5,7 +5,7 @@ Description
 
 
 
-- This is the APP called Git-Search App ,it is an APP that helps the user to search his/her git user friend and he can see all profile subscriptions and also :
+- This is the IP called Git-Search App ,it is an APP that helps the user to search his/her git user friend and he can see all profile subscriptions and also :
 
 
 ## Techonoligies used
